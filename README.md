@@ -1,1 +1,1 @@
-![Blog](http://blog.midageprogrammers.com/xamarin-forms-entry-and-editor/)
+[Blog](http://blog.midageprogrammers.com/xamarin-forms-entry-and-editor/)
