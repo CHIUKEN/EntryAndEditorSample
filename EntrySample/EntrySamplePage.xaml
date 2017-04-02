@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:EntrySample" x:Class="EntrySample.EntrySamplePage" Title="Editor And Entry Demo">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical">
+			<Label Text="Entry" FontSize="16" VerticalOptions="Start" HorizontalOptions="Center" />
+			<Entry Placeholder="請輸入" FontSize="25" Keyboard="Text" />
+			<Label Text="Editor" FontSize="16" VerticalOptions="Start" HorizontalOptions="Center" />
+			<StackLayout Padding="5,10">
+				<Editor Text="" HeightRequest="100">
+					<Editor.BackgroundColor>
+						<OnPlatform x:TypeArguments="Color" iOS="#a4eaff" Android="#FFCCCC" WinPhone="#2c3e50" />
+					</Editor.BackgroundColor>
+				</Editor>
+			</StackLayout>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
